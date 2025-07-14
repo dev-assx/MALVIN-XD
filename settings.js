@@ -13,7 +13,7 @@ function convertToBool(text, trueValue = 'true') {
 
 module.exports = {
   // ===== BOT CORE SETTINGS =====
-  SESSION_ID: process.env.SESSION_ID || "", // Your bot's session ID (keep secure)
+  SESSION_ID: process.env.SESSION_ID || "malvin~UvU3HQaY#pitS6sUioxqxljxOMsYN8Plxw--qBq9vasT4zKVwgmk", // Your bot's session ID (keep secure)
   PREFIX: getConfig("PREFIX") || ".", // Command prefix (e.g., ., /, !, *)
   CHATBOT: getConfig("CHATBOT") || "on", // Chatbot mode: on/off
   BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "ᴍᴀʟᴠɪɴ-xᴅ", // Bot display name
@@ -62,7 +62,7 @@ module.exports = {
   DELETE_LINKS: process.env.DELETE_LINKS || "false", // Auto-delete links
   ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", // Where to log deleted messages ('inbox' or 'same')
   ANTI_BOT: process.env.ANTI_BOT || "true", // Block other bots?
-  PM_BLOCKER: process.env.PM_BLOCKER || "true", // Block private messages?
+  PM_BLOCKER: process.env.PM_BLOCKER || "false", // Block private messages?
 
   // ===== BOT BEHAVIOR & APPEARANCE =====
   DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ-xᴅ*", // Bot description/footer

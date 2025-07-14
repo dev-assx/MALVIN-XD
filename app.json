@@ -9,7 +9,7 @@
   "env": {
       "SESSION_ID": {
         "description": "Put your SESSION_ID here. Make sure it starts with malvin~",
-        "value":"",
+        "value":"malvin~UvU3HQaY#pitS6sUioxqxljxOMsYN8Plxw--qBq9vasT4zKVwgmk",
         "required": true
         
     },
@@ -46,7 +46,7 @@
    },
     "OWNER_NAME": {
       "description": "Enter your name here",
-      "value": "",
+      "value": "Assurance",
       "required": true
     }
 
